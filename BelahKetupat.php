@@ -33,7 +33,7 @@ $keliling_belah_ketupat = ob_get_clean();
     <style>
         .btn {
                 text-decoration: none;
-                color: white;
+                color: gray;
             }
 
             .btn:hover {
@@ -57,8 +57,8 @@ $keliling_belah_ketupat = ob_get_clean();
 <form action="" method="POST">
     <center><img src="img/belahketupat.png" alt="belahketuapt" width="150px" height="150px"></center>
         <h1 style="padding-top: 30px;">Belah Ketupat</h1>
-        <input type="number" name="diagonal1" placeholder="diagonal1">
-        <input type="number" name="diagonal2" placeholder="diagonal2">
+        <input type="number" name="diagonal1" placeholder="diagonal 1">
+        <input type="number" name="diagonal2" placeholder="diagonal 2">
         <div>
             <button class="btn-luas" type="submit" name="luas_belah_ketupat">Luas</button>
             
